@@ -8,6 +8,13 @@
 			</PropertyList>
 			<ChildrenList>
 				<MusicSwitchContainer Name="Main Switch" ID="{521F663F-17E3-4DDD-918E-A9DF0AB161F6}" ShortID="26219367">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87D00681-2FAC-4A29-9AD3-8E3F7312FFF2}"/>

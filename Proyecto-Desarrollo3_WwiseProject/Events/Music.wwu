@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{D771042E-9892-4FDF-A02D-E79D6A8E6ADC}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{D771042E-9892-4FDF-A02D-E79D6A8E6ADC}" SchemaVersion="103" RootDocumentID="{A1FA10B1-4174-4083-B13B-809950744FAF}" ParentDocumentID="{A1FA10B1-4174-4083-B13B-809950744FAF}">
 	<Events>
-		<WorkUnit Name="Music" ID="{D771042E-9892-4FDF-A02D-E79D6A8E6ADC}" PersistMode="Standalone">
+		<WorkUnit Name="Music" ID="{D771042E-9892-4FDF-A02D-E79D6A8E6ADC}" OwnerID="{A1FA10B1-4174-4083-B13B-809950744FAF}" PersistMode="Nested">
 			<ChildrenList>
 				<Event Name="StartMusic" ID="{A6B03025-374B-453C-ACAE-45A7A089E630}">
 					<ChildrenList>
