@@ -3,8 +3,61 @@
 	<Events>
 		<WorkUnit Name="Main Menu" ID="{ED3446A0-9237-4339-8C78-D3FB6CDB9527}" OwnerID="{A1FA10B1-4174-4083-B13B-809950744FAF}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="MenuPositive" ID="{DC74BC38-52A0-4C89-AD5A-DB228D3D7A5C}"/>
-				<Event Name="MenuNegative" ID="{A9AF4FDE-53A9-4F9D-B80F-D2B24A2A773B}"/>
+				<Event Name="MenuPositive" ID="{DC74BC38-52A0-4C89-AD5A-DB228D3D7A5C}">
+					<ChildrenList>
+						<Action Name="" ID="{EA8CF4B0-4D51-4FD2-B314-F7F53B6FD16E}" ShortID="158228643">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuPositive" ID="{0FA12E30-087A-48B7-B339-D05ADECEA4AF}" WorkUnitID="{1A0E1174-3346-4568-9D65-ED255BDC120D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MenuNegative" ID="{A9AF4FDE-53A9-4F9D-B80F-D2B24A2A773B}">
+					<ChildrenList>
+						<Action Name="" ID="{9EA03014-76A1-455D-A556-07D0B00BF4D3}" ShortID="783311700">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuNegative" ID="{174287BD-F892-47DA-A7C8-8D6C261B0F74}" WorkUnitID="{1A0E1174-3346-4568-9D65-ED255BDC120D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MenuHover" ID="{A1B8DBCC-A557-470F-94CB-AF1682F67CCA}">
+					<ChildrenList>
+						<Action Name="" ID="{96F2710B-DA70-4CCC-9806-655BD50966EE}" ShortID="74450300">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenuHover" ID="{0B0280D6-3AA5-4EF5-AC73-48DA947568EC}" WorkUnitID="{1A0E1174-3346-4568-9D65-ED255BDC120D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MenuHoverExit" ID="{F03C191C-0E00-4475-B65C-CCEA1BCD0BD2}">
+					<ChildrenList>
+						<Action Name="" ID="{C9BB07E2-E592-4BBE-8568-A831A9AA2389}" ShortID="217785476">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuUIButtonHover" ID="{6FDBDC35-B2D8-4DA9-ADE3-910926D90EBE}" WorkUnitID="{1A0E1174-3346-4568-9D65-ED255BDC120D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MenuStartGame" ID="{697A17FD-8291-45A1-B4D7-8C057B6E81A4}">
+					<ChildrenList>
+						<Action Name="" ID="{8BC1135B-1D74-4EE0-93E7-B52A0B3F8314}" ShortID="890704811">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Placeholder" ID="{580F11CA-1EC8-4A0C-9F10-81495FFF19ED}" WorkUnitID="{1A0E1174-3346-4568-9D65-ED255BDC120D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
