@@ -1,34 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Git\Atomatic\Proyecto-Desarrollo3\Proyecto-Desarrollo3_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Git\Atomatic\Proyecto-Desarrollo3\Proyecto-Desarrollo3_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Git\Atomatic\Proyecto-Desarrollo3\Proyecto-Desarrollo3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>G:\Users\Contres\Documents\Unity\Game Audio 2023\Atomatic\Atomatic-Audio-Team\Proyecto-Desarrollo3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>G:\Users\Contres\Documents\Unity\Game Audio 2023\Atomatic\Atomatic-Audio-Team\Proyecto-Desarrollo3_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>G:\Users\Contres\Documents\Unity\Game Audio 2023\Atomatic\Atomatic-Audio-Team\Proyecto-Desarrollo3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Git\Atomatic\Proyecto-Desarrollo3\Proyecto-Desarrollo3_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>G:\Users\Contres\Documents\Unity\Game Audio 2023\Atomatic\Atomatic-Audio-Team\Proyecto-Desarrollo3_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="328372074">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2230826743">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3856692903">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2112964767">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2590312237" Name="BuyScenario" ObjectPath="\Events\Default Work Unit\Gameplay\BuyScenario" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="469262491" Name="BuyShop" ObjectPath="\Events\Default Work Unit\Gameplay\BuyShop" DurationType="OneShot" DurationMin="0.940833" DurationMax="0.940833">
+				<Event Id="3608800070" Name="BuyNegative" ObjectPath="\Events\Default Work Unit\Gameplay\BuyNegative" DurationType="OneShot" DurationMin="0.379312" DurationMax="0.379312">
 					<IncludedMemoryFiles>
-						<File Id="630233695" Language="SFX">
-							<ShortName>BuyShopTest.wav</ShortName>
-							<Path>SFX\BuyShopTest_10C4C929.wem</Path>
+						<File Id="338355016" Language="SFX">
+							<ShortName>BuyNegative.wav</ShortName>
+							<Path>SFX\BuyNegative_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2590312237" Name="BuyScenario" ObjectPath="\Events\Default Work Unit\Gameplay\BuyScenario" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="469262491" Name="BuyShop" ObjectPath="\Events\Default Work Unit\Gameplay\BuyShop" DurationType="OneShot" DurationMin="0.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="68095229" Language="SFX">
+							<ShortName>IncrementalBuyShop-012.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-012_10C4C929.wem</Path>
+						</File>
+						<File Id="129408635" Language="SFX">
+							<ShortName>IncrementalBuyShop-011.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-011_10C4C929.wem</Path>
+						</File>
+						<File Id="148512564" Language="SFX">
+							<ShortName>IncrementalBuyShop-006.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-006_10C4C929.wem</Path>
+						</File>
+						<File Id="237945014" Language="SFX">
+							<ShortName>IncrementalBuyShop-008.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-008_10C4C929.wem</Path>
+						</File>
+						<File Id="297939225" Language="SFX">
+							<ShortName>IncrementalBuyShop-002.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-002_10C4C929.wem</Path>
+						</File>
+						<File Id="333392990" Language="SFX">
+							<ShortName>IncrementalBuyShop-001.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-001_10C4C929.wem</Path>
+						</File>
+						<File Id="528173449" Language="SFX">
+							<ShortName>IncrementalBuyShop-007.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-007_10C4C929.wem</Path>
+						</File>
+						<File Id="648263188" Language="SFX">
+							<ShortName>IncrementalBuyShop-004.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-004_10C4C929.wem</Path>
+						</File>
+						<File Id="722503634" Language="SFX">
+							<ShortName>IncrementalBuyShop-009.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-009_10C4C929.wem</Path>
+						</File>
+						<File Id="754984195" Language="SFX">
+							<ShortName>IncrementalBuyShop-005.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-005_10C4C929.wem</Path>
+						</File>
+						<File Id="773978567" Language="SFX">
+							<ShortName>IncrementalBuyShop-010.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-010_10C4C929.wem</Path>
+						</File>
+						<File Id="1025011006" Language="SFX">
+							<ShortName>IncrementalBuyShop-003.wav</ShortName>
+							<Path>SFX\IncrementalBuyShop-003_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{5E322ABF-B6BE-4CAF-9475-81D9067889AC}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{5B3DAC0C-E578-494B-967E-CE325D454B62}">
+							<Media>
+								<File Id="1025011006"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{84080E0E-A0ED-4542-8996-225B26556C71}">
+							<Media>
+								<File Id="773978567"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{35F97130-B368-452B-A32E-1EC1C9053B19}">
+							<Media>
+								<File Id="237945014"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AA094146-91D7-41D1-A764-CFCBA3487B45}">
+							<Media>
+								<File Id="297939225"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{438FA561-FF8D-4714-B509-D696F7CBF000}">
+							<Media>
+								<File Id="148512564"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{739C066E-EB5D-4BCE-A2A7-BCC7D61C7E41}">
+							<Media>
+								<File Id="528173449"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9391328B-7E2F-4B86-91AC-A4C1C6C766CA}">
+							<Media>
+								<File Id="754984195"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5E322ABF-B6BE-4CAF-9475-81D9067889AC}">
+							<Media>
+								<File Id="333392990"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{EA9460C6-D75B-4ADD-B44E-F47412B09F5F}">
+							<Media>
+								<File Id="648263188"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5DE629D9-5C50-4523-93C9-2877E98E0267}">
+							<Media>
+								<File Id="68095229"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DDE642E6-C7BC-4EA9-BD76-E02756A53CC1}">
+							<Media>
+								<File Id="722503634"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{532905F0-ECDD-4E5A-938E-EB56203605DA}">
+							<Media>
+								<File Id="129408635"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3532703493" Name="BuyUpgrade" ObjectPath="\Events\Default Work Unit\Gameplay\BuyUpgrade" DurationType="OneShot" DurationMin="0.888896" DurationMax="0.888896">
 					<IncludedMemoryFiles>
@@ -38,87 +153,523 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1397303698" Name="ClickGenerator" ObjectPath="\Events\Default Work Unit\Gameplay\ClickGenerator" DurationType="OneShot" DurationMin="0.020104" DurationMax="0.18675">
+				<Event Id="1397303698" Name="ClickGenerator" ObjectPath="\Events\Default Work Unit\Gameplay\ClickGenerator" DurationType="OneShot" DurationMin="0.127271" DurationMax="0.315146">
 					<IncludedMemoryFiles>
-						<File Id="104214849" Language="SFX">
-							<ShortName>Click-004.wav</ShortName>
-							<Path>SFX\Click-004_10C4C929.wem</Path>
+						<File Id="5496699" Language="SFX">
+							<ShortName>ClickElectrico-002.wav</ShortName>
+							<Path>SFX\ClickElectrico-002_10C4C929.wem</Path>
 						</File>
-						<File Id="375050747" Language="SFX">
-							<ShortName>clicksimplon2.wav</ShortName>
-							<Path>SFX\clicksimplon2_10C4C929.wem</Path>
+						<File Id="26575827" Language="SFX">
+							<ShortName>ClickElectrico-006.wav</ShortName>
+							<Path>SFX\ClickElectrico-006_10C4C929.wem</Path>
 						</File>
-						<File Id="423723300" Language="SFX">
-							<ShortName>Click-003.wav</ShortName>
-							<Path>SFX\Click-003_10C4C929.wem</Path>
+						<File Id="223137404" Language="SFX">
+							<ShortName>ClickElectrico-004.wav</ShortName>
+							<Path>SFX\ClickElectrico-004_10C4C929.wem</Path>
 						</File>
-						<File Id="569766503" Language="SFX">
-							<ShortName>Click-002.wav</ShortName>
-							<Path>SFX\Click-002_10C4C929.wem</Path>
+						<File Id="645693971" Language="SFX">
+							<ShortName>ClickElectrico-003.wav</ShortName>
+							<Path>SFX\ClickElectrico-003_10C4C929.wem</Path>
 						</File>
-						<File Id="787848516" Language="SFX">
-							<ShortName>Click-005.wav</ShortName>
-							<Path>SFX\Click-005_10C4C929.wem</Path>
+						<File Id="699753697" Language="SFX">
+							<ShortName>ClickElectrico-001.wav</ShortName>
+							<Path>SFX\ClickElectrico-001_10C4C929.wem</Path>
 						</File>
-						<File Id="840620083" Language="SFX">
-							<ShortName>dobleClick-004.wav</ShortName>
-							<Path>SFX\dobleClick-004_10C4C929.wem</Path>
-						</File>
-						<File Id="876522381" Language="SFX">
-							<ShortName>clicksimplon1.wav</ShortName>
-							<Path>SFX\clicksimplon1_10C4C929.wem</Path>
-						</File>
-						<File Id="920639229" Language="SFX">
-							<ShortName>dobleClick-003.wav</ShortName>
-							<Path>SFX\dobleClick-003_10C4C929.wem</Path>
-						</File>
-						<File Id="1002903760" Language="SFX">
-							<ShortName>dobleClickReversa.wav</ShortName>
-							<Path>SFX\dobleClickReversa_10C4C929.wem</Path>
+						<File Id="704009042" Language="SFX">
+							<ShortName>ClickElectrico-005.wav</ShortName>
+							<Path>SFX\ClickElectrico-005_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{A8AA3C04-DFA2-4EEB-BECB-64E2E4DDF3FA}</DefaultSwitchValue>
+				</Event>
+				<Event Id="271697268" Name="GeneratorAmbience" ObjectPath="\Events\Default Work Unit\Gameplay\GeneratorAmbience" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="303266102" Name="MenuHover" ObjectPath="\Events\Default Work Unit\Main Menu\MenuHover" DurationType="OneShot" DurationMin="0.010208" DurationMax="0.010208">
+					<IncludedMemoryFiles>
+						<File Id="195150515" Language="SFX">
+							<ShortName>MainMenuHover.wav</ShortName>
+							<Path>SFX\MainMenuHover_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2079739518" Name="MenuHoverExit" ObjectPath="\Events\Default Work Unit\Main Menu\MenuHoverExit" DurationType="OneShot" DurationMin="0.381417" DurationMax="0.381417">
+					<IncludedMemoryFiles>
+						<File Id="718428150" Language="SFX">
+							<ShortName>MenuUIButtonHover.wav</ShortName>
+							<Path>SFX\MenuUIButtonHover_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1513208197" Name="MenuNegative" ObjectPath="\Events\Default Work Unit\Main Menu\MenuNegative" DurationType="OneShot" DurationMin="0.124063" DurationMax="0.124063">
+					<IncludedMemoryFiles>
+						<File Id="780190575" Language="SFX">
+							<ShortName>MenuNegative.wav</ShortName>
+							<Path>SFX\MenuNegative_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2496648897" Name="MenuPositive" ObjectPath="\Events\Default Work Unit\Main Menu\MenuPositive" DurationType="OneShot" DurationMin="0.242542" DurationMax="0.242542">
+					<IncludedMemoryFiles>
+						<File Id="368962797" Language="SFX">
+							<ShortName>MenuPositive.wav</ShortName>
+							<Path>SFX\MenuPositive_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2909695010" Name="MenuStartGame" ObjectPath="\Events\Default Work Unit\Main Menu\MenuStartGame" DurationType="OneShot" DurationMin="1.565396" DurationMax="1.565396">
+					<IncludedMemoryFiles>
+						<File Id="919586181" Language="SFX">
+							<ShortName>Placeholder.wav</ShortName>
+							<Path>SFX\Placeholder_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Gameplay\Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="393478359" Name="PlayAtEnd" ObjectPath="\Events\Default Work Unit\Music\PlayAtEnd" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="31870315" Language="SFX">
+							<ShortName>Toms - copia.wav</ShortName>
+							<Path>SFX\Toms - copia_D79FB2B7.wem</Path>
+						</File>
+						<File Id="53026724" Language="SFX">
+							<ShortName>Lead 5.wav</ShortName>
+							<Path>SFX\Lead 5_D79FB2B7.wem</Path>
+						</File>
+						<File Id="72920660" Language="SFX">
+							<ShortName>Block4-DnB-157BPM.wav</ShortName>
+							<Path>SFX\Block4-DnB-157BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="138647023" Language="SFX">
+							<ShortName>Lead 6.wav</ShortName>
+							<Path>SFX\Lead 6_D79FB2B7.wem</Path>
+						</File>
+						<File Id="150748095" Language="SFX">
+							<ShortName>Armonía Pad Flashero A.wav</ShortName>
+							<Path>SFX\Armonía Pad Flashero A_D79FB2B7.wem</Path>
+						</File>
+						<File Id="178760586" Language="SFX">
+							<ShortName>Armonía Pad Flashero B.wav</ShortName>
+							<Path>SFX\Armonía Pad Flashero B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="197342249" Language="SFX">
+							<ShortName>Toms - copia (2).wav</ShortName>
+							<Path>SFX\Toms - copia (2)_D79FB2B7.wem</Path>
+						</File>
+						<File Id="235175015" Language="SFX">
+							<ShortName>Lead 2.wav</ShortName>
+							<Path>SFX\Lead 2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="238481152" Language="SFX">
+							<ShortName>Lead 3.wav</ShortName>
+							<Path>SFX\Lead 3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="239437742" Language="SFX">
+							<ShortName>Kick.wav</ShortName>
+							<Path>SFX\Kick_D79FB2B7.wem</Path>
+						</File>
+						<File Id="277545904" Language="SFX">
+							<ShortName>Toms-1.wav</ShortName>
+							<Path>SFX\Toms-1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="301429616" Language="SFX">
+							<ShortName>Snare - copia (2).wav</ShortName>
+							<Path>SFX\Snare - copia (2)_D79FB2B7.wem</Path>
+						</File>
+						<File Id="352214731" Language="SFX">
+							<ShortName>Generator1Full.wav</ShortName>
+							<Path>SFX\Generator1Full_D79FB2B7.wem</Path>
+						</File>
+						<File Id="386022567" Language="SFX">
+							<ShortName>Block2-DnB-157BPM.wav</ShortName>
+							<Path>SFX\Block2-DnB-157BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="397890682" Language="SFX">
+							<ShortName>Kick - copia.wav</ShortName>
+							<Path>SFX\Kick - copia_D79FB2B7.wem</Path>
+						</File>
+						<File Id="415946185" Language="SFX">
+							<ShortName>Snare - copia.wav</ShortName>
+							<Path>SFX\Snare - copia_D79FB2B7.wem</Path>
+						</File>
+						<File Id="426209307" Language="SFX">
+							<ShortName>Kick - copia (2).wav</ShortName>
+							<Path>SFX\Kick - copia (2)_D79FB2B7.wem</Path>
+						</File>
+						<File Id="432133021" Language="SFX">
+							<ShortName>Block5-DnB-157BPM.wav</ShortName>
+							<Path>SFX\Block5-DnB-157BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="487769136" Language="SFX">
+							<ShortName>Block1-DnB-157BPM.wav</ShortName>
+							<Path>SFX\Block1-DnB-157BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="504146804" Language="SFX">
+							<ShortName>Snare.wav</ShortName>
+							<Path>SFX\Snare_D79FB2B7.wem</Path>
+						</File>
+						<File Id="562891666" Language="SFX">
+							<ShortName>Lead 4.wav</ShortName>
+							<Path>SFX\Lead 4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="600234403" Language="SFX">
+							<ShortName>Armonía Pad Tranqui B.wav</ShortName>
+							<Path>SFX\Armonía Pad Tranqui B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="632269517" Language="SFX">
+							<ShortName>Bajo B.wav</ShortName>
+							<Path>SFX\Bajo B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="649821562" Language="SFX">
+							<ShortName>Bajo A.wav</ShortName>
+							<Path>SFX\Bajo A_D79FB2B7.wem</Path>
+						</File>
+						<File Id="710044785" Language="SFX">
+							<ShortName>Toms.wav</ShortName>
+							<Path>SFX\Toms_D79FB2B7.wem</Path>
+						</File>
+						<File Id="814671052" Language="SFX">
+							<ShortName>Armonía Pad Tranqui A.wav</ShortName>
+							<Path>SFX\Armonía Pad Tranqui A_D79FB2B7.wem</Path>
+						</File>
+						<File Id="913039828" Language="SFX">
+							<ShortName>Lead 1.wav</ShortName>
+							<Path>SFX\Lead 1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="988360710" Language="SFX">
+							<ShortName>Block3-DnB-157BPM.wav</ShortName>
+							<Path>SFX\Block3-DnB-157BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="988707144" Language="SFX">
+							<ShortName>Lead 7.wav</ShortName>
+							<Path>SFX\Lead 7_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{A8AA3C04-DFA2-4EEB-BECB-64E2E4DDF3FA}">
+						<SwitchContainer SwitchValue="{68C76061-E341-461B-89B3-2C0CA2B1A0D9}">
 							<Media>
-								<File Id="375050747"/>
-								<File Id="876522381"/>
+								<File Id="72920660"/>
+								<File Id="386022567"/>
+								<File Id="432133021"/>
+								<File Id="487769136"/>
+								<File Id="988360710"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{624F653B-6450-46E1-960E-FA5B22D4DD9A}">
+						<SwitchContainer SwitchValue="{7FAB38DC-18E6-44C6-97C0-00B698AB032E}">
 							<Media>
-								<File Id="104214849"/>
-								<File Id="787848516"/>
+								<File Id="31870315"/>
+								<File Id="53026724"/>
+								<File Id="138647023"/>
+								<File Id="150748095"/>
+								<File Id="178760586"/>
+								<File Id="197342249"/>
+								<File Id="235175015"/>
+								<File Id="238481152"/>
+								<File Id="239437742"/>
+								<File Id="277545904"/>
+								<File Id="301429616"/>
+								<File Id="397890682"/>
+								<File Id="415946185"/>
+								<File Id="426209307"/>
+								<File Id="504146804"/>
+								<File Id="562891666"/>
+								<File Id="600234403"/>
+								<File Id="632269517"/>
+								<File Id="649821562"/>
+								<File Id="710044785"/>
+								<File Id="814671052"/>
+								<File Id="913039828"/>
+								<File Id="988707144"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{4E8E7D62-9D06-4843-B24F-9A5FF66ECB5D}">
+						<SwitchContainer SwitchValue="{1F110991-2F4D-4515-8EF3-2B18B441869A}">
 							<Media>
-								<File Id="423723300"/>
-								<File Id="569766503"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{CFA91971-E567-4C24-B995-A45230BE1A90}">
-							<Media>
-								<File Id="1002903760"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{7DE62BB7-33B8-43B3-A3E9-5AAA94874FFF}">
-							<Media>
-								<File Id="840620083"/>
-								<File Id="920639229"/>
+								<File Id="352214731"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="271697268" Name="GeneratorAmbience" ObjectPath="\Events\Default Work Unit\Gameplay\GeneratorAmbience" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="1513208197" Name="MenuNegative" ObjectPath="\Events\Default Work Unit\Main Menu\MenuNegative" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="2496648897" Name="MenuPositive" ObjectPath="\Events\Default Work Unit\Main Menu\MenuPositive" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Gameplay\Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="1210207003" Name="UIHoverShop" ObjectPath="\Events\Default Work Unit\Gameplay\UIHoverShop" DurationType="OneShot" DurationMin="0.095354" DurationMax="0.095354">
+				<Event Id="3827058668" Name="StartMusic" ObjectPath="\Events\Default Work Unit\Music\StartMusic" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="616632917" Language="SFX">
-							<ShortName>UIButtonHover.wav</ShortName>
-							<Path>SFX\UIButtonHover_10C4C929.wem</Path>
+						<File Id="8634741" Language="SFX">
+							<ShortName>Teclado Acordes B.wav</ShortName>
+							<Path>SFX\Teclado Acordes B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="31870315" Language="SFX">
+							<ShortName>Toms - copia.wav</ShortName>
+							<Path>SFX\Toms - copia_D79FB2B7.wem</Path>
+						</File>
+						<File Id="34199969" Language="SFX">
+							<ShortName>Batería A sin snare.wav</ShortName>
+							<Path>SFX\Batería A sin snare_D79FB2B7.wem</Path>
+						</File>
+						<File Id="53026724" Language="SFX">
+							<ShortName>Lead 5.wav</ShortName>
+							<Path>SFX\Lead 5_D79FB2B7.wem</Path>
+						</File>
+						<File Id="72920660" Language="SFX">
+							<ShortName>Block4-DnB-157BPM.wav</ShortName>
+							<Path>SFX\Block4-DnB-157BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="138647023" Language="SFX">
+							<ShortName>Lead 6.wav</ShortName>
+							<Path>SFX\Lead 6_D79FB2B7.wem</Path>
+						</File>
+						<File Id="150748095" Language="SFX">
+							<ShortName>Armonía Pad Flashero A.wav</ShortName>
+							<Path>SFX\Armonía Pad Flashero A_D79FB2B7.wem</Path>
+						</File>
+						<File Id="178760586" Language="SFX">
+							<ShortName>Armonía Pad Flashero B.wav</ShortName>
+							<Path>SFX\Armonía Pad Flashero B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="197342249" Language="SFX">
+							<ShortName>Toms - copia (2).wav</ShortName>
+							<Path>SFX\Toms - copia (2)_D79FB2B7.wem</Path>
+						</File>
+						<File Id="199208059" Language="SFX">
+							<ShortName>Guitarra B 1 con rever.wav</ShortName>
+							<Path>SFX\Guitarra B 1 con rever_D79FB2B7.wem</Path>
+						</File>
+						<File Id="232526594" Language="SFX">
+							<ShortName>Batería B sin snare.wav</ShortName>
+							<Path>SFX\Batería B sin snare_D79FB2B7.wem</Path>
+						</File>
+						<File Id="235175015" Language="SFX">
+							<ShortName>Lead 2.wav</ShortName>
+							<Path>SFX\Lead 2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="238481152" Language="SFX">
+							<ShortName>Lead 3.wav</ShortName>
+							<Path>SFX\Lead 3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="239437742" Language="SFX">
+							<ShortName>Kick.wav</ShortName>
+							<Path>SFX\Kick_D79FB2B7.wem</Path>
+						</File>
+						<File Id="257834542" Language="SFX">
+							<ShortName>Batería B completa.wav</ShortName>
+							<Path>SFX\Batería B completa_D79FB2B7.wem</Path>
+						</File>
+						<File Id="277545904" Language="SFX">
+							<ShortName>Toms-1.wav</ShortName>
+							<Path>SFX\Toms-1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="301343887" Language="SFX">
+							<ShortName>Gen3-178bpm-part5.wav</ShortName>
+							<Path>SFX\Gen3-178bpm-part5_D79FB2B7.wem</Path>
+						</File>
+						<File Id="301429616" Language="SFX">
+							<ShortName>Snare - copia (2).wav</ShortName>
+							<Path>SFX\Snare - copia (2)_D79FB2B7.wem</Path>
+						</File>
+						<File Id="306570316" Language="SFX">
+							<ShortName>Guitarra B 2 con rever.wav</ShortName>
+							<Path>SFX\Guitarra B 2 con rever_D79FB2B7.wem</Path>
+						</File>
+						<File Id="308500214" Language="SFX">
+							<ShortName>Batería A sin hihat.wav</ShortName>
+							<Path>SFX\Batería A sin hihat_D79FB2B7.wem</Path>
+						</File>
+						<File Id="327312290" Language="SFX">
+							<ShortName>Batería B sin hihat.wav</ShortName>
+							<Path>SFX\Batería B sin hihat_D79FB2B7.wem</Path>
+						</File>
+						<File Id="352214731" Language="SFX">
+							<ShortName>Generator1Full.wav</ShortName>
+							<Path>SFX\Generator1Full_D79FB2B7.wem</Path>
+						</File>
+						<File Id="357408021" Language="SFX">
+							<ShortName>Batería A completa.wav</ShortName>
+							<Path>SFX\Batería A completa_D79FB2B7.wem</Path>
+						</File>
+						<File Id="371579898" Language="SFX">
+							<ShortName>Gen3-178bpm-part4.wav</ShortName>
+							<Path>SFX\Gen3-178bpm-part4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="386022567" Language="SFX">
+							<ShortName>Block2-DnB-157BPM.wav</ShortName>
+							<Path>SFX\Block2-DnB-157BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="397890682" Language="SFX">
+							<ShortName>Kick - copia.wav</ShortName>
+							<Path>SFX\Kick - copia_D79FB2B7.wem</Path>
+						</File>
+						<File Id="415946185" Language="SFX">
+							<ShortName>Snare - copia.wav</ShortName>
+							<Path>SFX\Snare - copia_D79FB2B7.wem</Path>
+						</File>
+						<File Id="426209307" Language="SFX">
+							<ShortName>Kick - copia (2).wav</ShortName>
+							<Path>SFX\Kick - copia (2)_D79FB2B7.wem</Path>
+						</File>
+						<File Id="432133021" Language="SFX">
+							<ShortName>Block5-DnB-157BPM.wav</ShortName>
+							<Path>SFX\Block5-DnB-157BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="460881786" Language="SFX">
+							<ShortName>Guitarra A 1 con rever.wav</ShortName>
+							<Path>SFX\Guitarra A 1 con rever_D79FB2B7.wem</Path>
+						</File>
+						<File Id="487769136" Language="SFX">
+							<ShortName>Block1-DnB-157BPM.wav</ShortName>
+							<Path>SFX\Block1-DnB-157BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="504146804" Language="SFX">
+							<ShortName>Snare.wav</ShortName>
+							<Path>SFX\Snare_D79FB2B7.wem</Path>
+						</File>
+						<File Id="530466622" Language="SFX">
+							<ShortName>Guitarra A 3 con rever.wav</ShortName>
+							<Path>SFX\Guitarra A 3 con rever_D79FB2B7.wem</Path>
+						</File>
+						<File Id="562891666" Language="SFX">
+							<ShortName>Lead 4.wav</ShortName>
+							<Path>SFX\Lead 4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="600234403" Language="SFX">
+							<ShortName>Armonía Pad Tranqui B.wav</ShortName>
+							<Path>SFX\Armonía Pad Tranqui B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="620534225" Language="SFX">
+							<ShortName>Teclado Acordes A.wav</ShortName>
+							<Path>SFX\Teclado Acordes A_D79FB2B7.wem</Path>
+						</File>
+						<File Id="632269517" Language="SFX">
+							<ShortName>Bajo B.wav</ShortName>
+							<Path>SFX\Bajo B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="649821562" Language="SFX">
+							<ShortName>Bajo A.wav</ShortName>
+							<Path>SFX\Bajo A_D79FB2B7.wem</Path>
+						</File>
+						<File Id="655826575" Language="SFX">
+							<ShortName>Guitarra A 2 con rever.wav</ShortName>
+							<Path>SFX\Guitarra A 2 con rever_D79FB2B7.wem</Path>
+						</File>
+						<File Id="710044785" Language="SFX">
+							<ShortName>Toms.wav</ShortName>
+							<Path>SFX\Toms_D79FB2B7.wem</Path>
+						</File>
+						<File Id="736348378" Language="SFX">
+							<ShortName>Menu-178bpm- optativo.wav</ShortName>
+							<Path>SFX\Menu-178bpm- optativo_D79FB2B7.wem</Path>
+						</File>
+						<File Id="768624693" Language="SFX">
+							<ShortName>Guitarra B 3 con rever.wav</ShortName>
+							<Path>SFX\Guitarra B 3 con rever_D79FB2B7.wem</Path>
+						</File>
+						<File Id="770996556" Language="SFX">
+							<ShortName>Gen3-178bpm-part1.wav</ShortName>
+							<Path>SFX\Gen3-178bpm-part1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="814671052" Language="SFX">
+							<ShortName>Armonía Pad Tranqui A.wav</ShortName>
+							<Path>SFX\Armonía Pad Tranqui A_D79FB2B7.wem</Path>
+						</File>
+						<File Id="817191929" Language="SFX">
+							<ShortName>Gen3-178bpm-part2.wav</ShortName>
+							<Path>SFX\Gen3-178bpm-part2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="913039828" Language="SFX">
+							<ShortName>Lead 1.wav</ShortName>
+							<Path>SFX\Lead 1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="934792551" Language="SFX">
+							<ShortName>Gen3-178bpm-part3.wav</ShortName>
+							<Path>SFX\Gen3-178bpm-part3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="988360710" Language="SFX">
+							<ShortName>Block3-DnB-157BPM.wav</ShortName>
+							<Path>SFX\Block3-DnB-157BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="988707144" Language="SFX">
+							<ShortName>Lead 7.wav</ShortName>
+							<Path>SFX\Lead 7_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{70B33D6D-9E0A-41D1-B411-396B96E50138}">
+							<Children>
+								<SwitchContainer SwitchValue="{68C76061-E341-461B-89B3-2C0CA2B1A0D9}">
+									<Media>
+										<File Id="72920660"/>
+										<File Id="386022567"/>
+										<File Id="432133021"/>
+										<File Id="487769136"/>
+										<File Id="988360710"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7FAB38DC-18E6-44C6-97C0-00B698AB032E}">
+									<Media>
+										<File Id="31870315"/>
+										<File Id="53026724"/>
+										<File Id="138647023"/>
+										<File Id="150748095"/>
+										<File Id="178760586"/>
+										<File Id="197342249"/>
+										<File Id="235175015"/>
+										<File Id="238481152"/>
+										<File Id="239437742"/>
+										<File Id="277545904"/>
+										<File Id="301429616"/>
+										<File Id="397890682"/>
+										<File Id="415946185"/>
+										<File Id="426209307"/>
+										<File Id="504146804"/>
+										<File Id="562891666"/>
+										<File Id="600234403"/>
+										<File Id="632269517"/>
+										<File Id="649821562"/>
+										<File Id="710044785"/>
+										<File Id="814671052"/>
+										<File Id="913039828"/>
+										<File Id="988707144"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{1F110991-2F4D-4515-8EF3-2B18B441869A}">
+									<Media>
+										<File Id="352214731"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{37A238E3-64E7-4F09-AF51-CE27EAFAF85D}">
+							<Media>
+								<File Id="8634741"/>
+								<File Id="34199969"/>
+								<File Id="199208059"/>
+								<File Id="232526594"/>
+								<File Id="257834542"/>
+								<File Id="306570316"/>
+								<File Id="308500214"/>
+								<File Id="327312290"/>
+								<File Id="357408021"/>
+								<File Id="460881786"/>
+								<File Id="530466622"/>
+								<File Id="620534225"/>
+								<File Id="655826575"/>
+								<File Id="768624693"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1EA55B7D-5BFD-4E44-B402-6756B998E8C0}">
+							<Media>
+								<File Id="301343887"/>
+								<File Id="371579898"/>
+								<File Id="736348378"/>
+								<File Id="770996556"/>
+								<File Id="817191929"/>
+								<File Id="934792551"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1064933119" Name="One" ObjectPath="\States\Default Work Unit\CurrentGenerator\One"/>
+						<ActionSetStateEntry Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\GameScene\MainMenu"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1210207003" Name="UIHoverShop" ObjectPath="\Events\Default Work Unit\Gameplay\UIHoverShop" DurationType="OneShot" DurationMin="0.101479" DurationMax="0.101479">
+					<IncludedMemoryFiles>
+						<File Id="918529064" Language="SFX">
+							<ShortName>UIHover.wav</ShortName>
+							<Path>SFX\UIHover_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -131,7 +682,47 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="1064933119" Name="One" ObjectPath="\States\Default Work Unit\CurrentGenerator\One" GUID="{1F110991-2F4D-4515-8EF3-2B18B441869A}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1548521311" Name="CurrentGenerator" ObjectPath="\States\Default Work Unit\CurrentGenerator" GUID="{D852F8B7-5244-4775-A24B-FB117ECF94F6}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\CurrentGenerator\None" GUID="{44053EC0-9FA7-47E0-BD5B-267C20217E0F}"/>
+						<State Id="678209053" Name="Two" ObjectPath="\States\Default Work Unit\CurrentGenerator\Two" GUID="{68C76061-E341-461B-89B3-2C0CA2B1A0D9}"/>
+						<State Id="912956111" Name="Three" ObjectPath="\States\Default Work Unit\CurrentGenerator\Three" GUID="{7FAB38DC-18E6-44C6-97C0-00B698AB032E}"/>
+						<State Id="1064933119" Name="One" ObjectPath="\States\Default Work Unit\CurrentGenerator\One" GUID="{1F110991-2F4D-4515-8EF3-2B18B441869A}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2859421969" Name="GameScene" ObjectPath="\States\Default Work Unit\GameScene" GUID="{3C8ABC27-1715-4D28-8872-03A50C4D9F0F}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameScene\None" GUID="{FF7DF97F-E5F1-4A6E-827F-D6E2B2144DF0}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\GameScene\MainMenu" GUID="{37A238E3-64E7-4F09-AF51-CE27EAFAF85D}"/>
+						<State Id="984691642" Name="InGame" ObjectPath="\States\Default Work Unit\GameScene\InGame" GUID="{70B33D6D-9E0A-41D1-B411-396B96E50138}"/>
+						<State Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\GameScene\Win" GUID="{1EA55B7D-5BFD-4E44-B402-6756B998E8C0}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\GameScene\MainMenu" GUID="{37A238E3-64E7-4F09-AF51-CE27EAFAF85D}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
+				<SwitchGroup Id="624697073" Name="IncrementalBuyShopSwitches" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches" GUID="{B4DE843F-22B0-4DAC-87B3-7CAFF5CF45E4}">
+					<Switches>
+						<Switch Id="2775272882" Name="IncrementalBuyShop1" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop1" GUID="{5E322ABF-B6BE-4CAF-9475-81D9067889AC}"/>
+						<Switch Id="2775272881" Name="IncrementalBuyShop2" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop2" GUID="{AA094146-91D7-41D1-A764-CFCBA3487B45}"/>
+						<Switch Id="2775272880" Name="IncrementalBuyShop3" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop3" GUID="{5B3DAC0C-E578-494B-967E-CE325D454B62}"/>
+						<Switch Id="2775272887" Name="IncrementalBuyShop4" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop4" GUID="{EA9460C6-D75B-4ADD-B44E-F47412B09F5F}"/>
+						<Switch Id="2775272886" Name="IncrementalBuyShop5" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop5" GUID="{9391328B-7E2F-4B86-91AC-A4C1C6C766CA}"/>
+						<Switch Id="2775272885" Name="IncrementalBuyShop6" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop6" GUID="{438FA561-FF8D-4714-B509-D696F7CBF000}"/>
+						<Switch Id="2775272884" Name="IncrementalBuyShop7" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop7" GUID="{739C066E-EB5D-4BCE-A2A7-BCC7D61C7E41}"/>
+						<Switch Id="2775272891" Name="IncrementalBuyShop8" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop8" GUID="{35F97130-B368-452B-A32E-1EC1C9053B19}"/>
+						<Switch Id="2775272890" Name="IncrementalBuyShop9" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop9" GUID="{DDE642E6-C7BC-4EA9-BD76-E02756A53CC1}"/>
+						<Switch Id="434851590" Name="IncrementalBuyShop10" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop10" GUID="{84080E0E-A0ED-4542-8996-225B26556C71}"/>
+						<Switch Id="434851591" Name="IncrementalBuyShop11" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop11" GUID="{532905F0-ECDD-4E5A-938E-EB56203605DA}"/>
+						<Switch Id="434851588" Name="IncrementalBuyShop12" ObjectPath="\Switches\Default Work Unit\IncrementalBuyShopSwitches\IncrementalBuyShop12" GUID="{5DE629D9-5C50-4523-93C9-2877E98E0267}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="1240427665" Name="ClickStatus" ObjectPath="\Switches\Default Work Unit\ClickStatus" GUID="{E7C6216F-4810-4017-A316-326190C4D216}">
 					<Switches>
 						<Switch Id="1206986080" Name="ClickA" ObjectPath="\Switches\Default Work Unit\ClickStatus\ClickA" GUID="{A8AA3C04-DFA2-4EEB-BECB-64E2E4DDF3FA}"/>

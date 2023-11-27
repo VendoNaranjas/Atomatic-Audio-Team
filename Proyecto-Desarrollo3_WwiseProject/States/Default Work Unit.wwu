@@ -24,6 +24,7 @@
 						<State Name="None" ID="{FF7DF97F-E5F1-4A6E-827F-D6E2B2144DF0}"/>
 						<State Name="MainMenu" ID="{37A238E3-64E7-4F09-AF51-CE27EAFAF85D}"/>
 						<State Name="InGame" ID="{70B33D6D-9E0A-41D1-B411-396B96E50138}"/>
+						<State Name="Win" ID="{1EA55B7D-5BFD-4E44-B402-6756B998E8C0}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
