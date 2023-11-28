@@ -32,6 +32,14 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="Game Profiler\Capture List\Filters\Scope - Game Object" Type="bool" Value="True"/>
+				<Property Name="Game Profiler\Capture List\Filters\Scope - Global" Type="bool" Value="True"/>
+				<Property Name="Game Profiler\Capture List\Filters\Sub Type - Mask" Type="int32" Value="8191"/>
+				<Property Name="Game Profiler\Capture List\Filters\Type - Mask" Type="int32" Value="8190"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Game Objects" Type="bool" Value="False"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Hierarchy" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Parents" Type="bool" Value="False"/>
+				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - PlayingID" Type="bool" Value="False"/>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
@@ -40,7 +48,8 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="U6CdbBI5cEu4ryyuis9UiQ=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="OEq87kfOME6gmOcrSDLHvg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
-				<Property Name="Interactive Music\x64_{560F3A89-0A6F-4DA7-B888-2C253AEABBE7} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzsM5gfVv0RAAAAAAAAA8D8AAAAAAAAAAAAAAAAAQF1A"/>
+				<Property Name="Interactive Music\x64_{560F3A89-0A6F-4DA7-B888-2C253AEABBE7} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzsM5gfVv0RAAAAAAAAA8D8AAAAAAAAAAAAAAAAAgE5A"/>
+				<Property Name="Interactive Music\x64_{574CFB10-CB55-4726-8230-5D4672CAEBE1} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP3vrqp9uPUVAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{77C8E3E6-9F28-4615-A99E-8D710E9A8456} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP+/cN7LMBQZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{DE677136-F135-4B48-B650-B807C60F2E84} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP3B4mZT/lEhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{FA5CB454-50C4-4EC5-87C5-BA3F82A98626} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP3B4mZT/lEhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -54,6 +63,8 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{0EF60662-A536-48B1-A074-B0175C4CE13F}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{0EF60662-A536-48B1-A074-B0175C4CE13F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{3778DA5F-7761-429A-9D1F-6D70F339CF0D}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{3778DA5F-7761-429A-9D1F-6D70F339CF0D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{472925CA-B6BD-4EA9-978F-D73360F0D21B}\Scroll Position" Type="int32" Value="0"/>
