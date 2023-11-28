@@ -90,10 +90,17 @@
 										<MediaID ID="2067128"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="BuyUpgrade2" ID="{E384C155-9478-4959-86A0-BE9DCBA1E0E0}">
+									<Language>SFX</Language>
+									<AudioFile>BuyUpgrade2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="780292732"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="BuyUpgradeTest" ID="{AEB26FEA-E518-42FA-BC8D-86FDA576FC7C}" Platform="Linked"/>
+								<ActiveSource Name="BuyUpgrade2" ID="{E384C155-9478-4959-86A0-BE9DCBA1E0E0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
