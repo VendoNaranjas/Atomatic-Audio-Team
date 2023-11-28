@@ -4,9 +4,21 @@
 		<WorkUnit Name="Default Work Unit" ID="{B3E617B0-A48A-4603-81F6-119217758CD8}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Engine" ID="{3A2718DB-3314-4AC7-9495-AC6E778D5EFB}"/>
-				<GameParameter Name="SfxVol" ID="{6E15B38C-68FD-4CBE-BE50-609E92CBB924}"/>
-				<GameParameter Name="MusVol" ID="{1D6174ED-3074-43B9-8C9C-F13C33E0358A}"/>
-				<GameParameter Name="MasterVol" ID="{9B0E65F6-64A9-4DBE-86A4-FBE2F9706280}"/>
+				<GameParameter Name="SfxVol" ID="{6E15B38C-68FD-4CBE-BE50-609E92CBB924}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MusVol" ID="{1D6174ED-3074-43B9-8C9C-F13C33E0358A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MasterVol" ID="{9B0E65F6-64A9-4DBE-86A4-FBE2F9706280}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
