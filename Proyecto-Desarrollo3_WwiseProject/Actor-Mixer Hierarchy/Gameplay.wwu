@@ -424,7 +424,7 @@
 							<Grouping>
 								<SwitchRef Name="Two" ID="{68C76061-E341-461B-89B3-2C0CA2B1A0D9}"/>
 								<ItemList>
-									<ItemRef Name="Click3" ID="{5A0B3BAB-D0A4-4145-A003-DF862968CB11}"/>
+									<ItemRef Name="Click2" ID="{32ADB91E-7518-440D-8250-775FAB8FF167}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
@@ -436,7 +436,7 @@
 							<Grouping>
 								<SwitchRef Name="Three" ID="{7FAB38DC-18E6-44C6-97C0-00B698AB032E}"/>
 								<ItemList>
-									<ItemRef Name="Click2" ID="{32ADB91E-7518-440D-8250-775FAB8FF167}"/>
+									<ItemRef Name="Click3" ID="{5A0B3BAB-D0A4-4145-A003-DF862968CB11}"/>
 								</ItemList>
 							</Grouping>
 						</GroupingList>

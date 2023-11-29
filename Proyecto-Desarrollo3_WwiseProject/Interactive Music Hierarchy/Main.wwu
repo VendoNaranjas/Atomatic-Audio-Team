@@ -9,6 +9,11 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="Main Switch" ID="{521F663F-17E3-4DDD-918E-A9DF0AB161F6}" ShortID="26219367">
 					<PropertyList>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-6</Value>
